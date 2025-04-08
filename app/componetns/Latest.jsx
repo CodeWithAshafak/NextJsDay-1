@@ -1,5 +1,5 @@
 import "../css/latest.css"
-
+Image
 const Latest = ()=>{
   return(
     <>
@@ -9,7 +9,7 @@ const Latest = ()=>{
 
 
       <div className="image">
-        <img src="/images/iphone.jpg" />
+        <Image src="/images/iphone.jpg"  width={400} height={400}/>
 
       </div>
       <div className="content">

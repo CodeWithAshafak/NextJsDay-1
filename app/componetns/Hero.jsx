@@ -1,13 +1,15 @@
+
+import Image from "next/image";
 const  Hero = ()=>{
   return(
     <>
      <div className="HeroWrapper">
       
-         <img src="/images/m1.jpg"  height="500px" width="100%" />
+         <Image src="/images/m1.jpg"  height={500}  />
 
      </div>
 
-    
+     
     
     </>
   )
