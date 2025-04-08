@@ -10,10 +10,10 @@ const Service = () => {
         <div className="productShowcase">
 
 
-          <img className="image" src="./images/vivo.jpg" />
-          <img   className="image" src="./images/apple.jpg" />
-          <img   className="image" src="./images/nothing.jpg" />
-          <img   className="image" src="./images/oneplus.jpg" />
+          <img className="image" src="/images/vivo.jpg" />
+          <img   className="image" src="/images/apple.jpg" />
+          <img   className="image" src="/images/nothing.jpg" />
+          <img   className="image" src="/images/oneplus.jpg" />
         </div>
    
    </>

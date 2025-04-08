@@ -9,7 +9,7 @@ const Latest = ()=>{
 
 
       <div className="image">
-        <img src="./images/iphone.jpg" />
+        <img src="/images/iphone.jpg" />
 
       </div>
       <div className="content">

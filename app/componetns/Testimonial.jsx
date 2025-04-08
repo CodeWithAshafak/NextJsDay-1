@@ -5,8 +5,10 @@ const Testimonial = () => {
    <>
     <div className="TestmonialWrapeer">
 
+   <div className="person1">
+    
+   </div>
 
-      
     </div>
    
    
