@@ -1,0 +1,14 @@
+.navWrapper{
+  display: flex;
+  background-color:skyblue;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+}
+h1{
+  color: grey;
+}
+span{
+  color: brown;
+}
