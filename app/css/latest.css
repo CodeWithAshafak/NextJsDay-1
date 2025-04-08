@@ -32,7 +32,7 @@
 
 }
 #trending{
-  color:"white";
+  
   font-size: 50px;
   text-align: center;
   font-family:'Times New Roman', Times, serif;
@@ -43,6 +43,37 @@
   font-size: 20px;
   text-decoration: wavy;
 }
+@media (max-width:768px) {
+
+  .mainWrapper{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .image img {
+    width: 100% ;
+    height: auto ;
+  }
+
+  .content {
+    padding: 20px;
+    margin: 20px 0 0;
+    width: 100%;
+  }
+
+  #trending {
+    font-size: 36px;
+  }
+
+  #features {
+    font-size: 18px;
+  }
+
+  
+}
+
+
 
 
 

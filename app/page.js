@@ -3,8 +3,10 @@ import styles from "./page.module.css";
 import Header from "./componetns/Header";
 import Hero from "./componetns/Hero";
 import Latest from "./componetns/Latest";
-import Service from "./componetns/Service";
+
 import Aboutus from "./componetns/Aboutus";
+import Product from "./componetns/Product";
+import Testimonial from "./componetns/Testimonial";
 
 export default function Home() {
   return (
@@ -12,7 +14,11 @@ export default function Home() {
    
    <Hero/>
   <Latest/>
-  <Service/>
+ 
+  <Product/>
+
+  <Testimonial/>
+
   <Aboutus/>
    
    </>

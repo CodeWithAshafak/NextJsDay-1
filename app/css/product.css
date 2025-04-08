@@ -11,3 +11,12 @@
   height: 300px;
   width: 300px;
 }
+
+@media (max-width:768px) {
+  .productShowcase{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+  }
+  
+}
